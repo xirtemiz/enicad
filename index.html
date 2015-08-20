@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+  <title>Document</title>
+  <meta name="viewport" content="width=device-width"/>
+  <link href="css/styles.css" media="screen" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="login" class="block-form">
+  <div class="block-form-header"><span>Вход</span>
+    <a href="" title="Регистрация" class="registration-link">Регистрация</a>
+  </div>
+  <form action="" id="login-form">
+    <fieldset class="inputs-group">
+      <div class="input-wrapper">
+        <label><input type="email" placeholder="Электронная почта" required="required" tabindex="1"/></label>
+
+        <div class="error-message"></div>
+      </div>
+      <div class="input-wrapper">
+        <label><input type="password" placeholder="Пароль" required="required" tabindex="2"/></label>
+      </div>
+    </fieldset>
+    <fieldset class="buttons-group">
+      <input type="submit" value="Войти" tabindex="3"/>
+      <a href="" title="Забыли пароль?" class="forgotten-link">Забыли пароль?</a>
+    </fieldset>
+  </form>
+</div>
+
+<div id="registration" class="block-form">
+  <div class="block-form-header"><span>Регистрация</span>
+    <a href="" title="Вход" class="login-link">Вход</a>
+  </div>
+  <form action="" id="registration-form">
+    <fieldset class="inputs-group">
+      <div class="input-wrapper">
+        <label><input type="email" placeholder="Электронная почта" required="required" tabindex="1"/></label>
+
+        <div class="error-message"></div>
+      </div>
+      <div class="input-wrapper">
+        <label><input type="password" placeholder="Придумайте пароль" required="required" tabindex="2"/></label>
+      </div>
+    </fieldset>
+    <fieldset class="buttons-group">
+      <input type="submit" value="Зарегистрироваться" tabindex="3"/>
+    </fieldset>
+  </form>
+</div>
+
+<div id="forgotten" class="block-form">
+  <div class="block-form-header"><span>Пароль потерялся</span>
+    <a href="" title="Вход" class="login-link">Вход</a>
+  </div>
+  <form action="" id="forgotten-form">
+    <p>Мы вышлем письмо для смены пароля Вам на электронную почту, указанную при регистрации</p>
+    <fieldset class="inputs-group">
+      <div class="input-wrapper">
+        <label><input type="email" placeholder="Электронная почта" required="required" tabindex="1"/></label>
+
+        <div class="error-message"></div>
+      </div>
+    </fieldset>
+    <fieldset class="buttons-group">
+      <input type="submit" value="Отправить" tabindex="3"/>
+    </fieldset>
+  </form>
+</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
